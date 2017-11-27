@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: 
 url: "http://www.pyas.net"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -13,9 +13,11 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。</p>
-     <p></p>   
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     <p>不管前方的路有多苦，</p>
+     <p>只要走的方向正确，</p>   
+     <p>不管多么崎岖不平，</p>
+     <p>都比站在原地更接近幸福。</p>
+  header_text_feature_image: assets/img/pexels/book-glass.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -55,10 +57,10 @@ theme_settings:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
+  str_next_post: "下一篇"
+  str_previous_post: "上一篇"
+  str_next_page: "下一页"
+  str_previous_page: "上一页"
   str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
@@ -67,7 +69,7 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
