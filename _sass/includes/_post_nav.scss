@@ -8,14 +8,20 @@
         vertical-align: middle;
     }
     a {
-        width: 100%;
-        display: inline-block;
+        width: 18%;
         padding: 0;
+        border: 1px solid #507492;
     }
-    p {
-        @extend .meta;
-    }
-    .post-nav-post + .post-nav-post {
-        margin-top: 1em;
-    }
+}
+
+#previous-post {
+    width: 49%;
+    margin-right: 0.2em;
+    text-align: right;
+}
+
+#next-post {
+    width: 49%;
+    margin-left: 0.2em;
+    text-align: left;
 }
