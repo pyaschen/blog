@@ -23,7 +23,7 @@
         {% if page.title and page.hide != true %}
         <li>
             <a class="clear" href="{{ page.url | relative_url }}">
-                {{ page.title }}
+                关于
             </a>
         </li>
         {% endif %}
@@ -31,24 +31,24 @@
         {% if site.theme_settings.portfolio %}
         <li>
             <a class="clear" href="{{ site.url }}{{ site.baseurl }}/portfolio">
-                Portfolio
+                档案夹
             </a>
         </li>
         {% endif %}
-        {% if site.theme_settings.portfolio %}
+        
         <li>
             <a class="clear" href="{{ site.url }}{{ site.baseurl }}/search">
-                Search
+                查找
             </a>
         </li>
-        {% endif %}
-        {% if site.theme_settings.portfolio %}
+        
+        
         <li>
             <a class="clear" href="{{ site.url }}{{ site.baseurl }}/tags">
-                Tags
+                标签
             </a>
         </li>
-        {% endif %}
+        
         
     </ul>
         
